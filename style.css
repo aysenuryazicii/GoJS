@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.treeContainer{
+    margin-top: 20px;
+    border: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    cursor: auto;
+    height: 90vh;
+    width: 750px;
+    font-weight: 900;
+    position: absolute;
+}
+
+.popup{
+    position: absolute;
+    height: 150px;
+    width: 70%;
+    padding: 10px;
+    opacity: 0.95;
+    margin-top: 16%;
+    border-radius: 8px;
+    background-color: rgb(17, 24, 32);
+    animation: 0.5s ease 0s 1 normal none running bIIGLr;
+    color: rgb(255, 255, 255);
+    position: initial;
+    z-index: 10;
+    padding: 1em;
+    max-width: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unvisible{
+    display: none;
+}
+
+.text{
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+td{
+    color: rgb(175, 193, 250);
+    line-height: 1.43;
+    justify-content: space-between;
+}
